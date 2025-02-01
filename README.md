@@ -27,6 +27,7 @@ cd sql-coding-tutor
 
 # Initialize Poetry environment
 poetry install
+```
 
 ### **2️⃣ Install Dependencies**
 Ensure **Python 3.11+** and **Poetry** are installed.
@@ -41,7 +42,7 @@ make
 mkdir -p models
 cd models
 wget https://huggingface.co/TheBloke/Llama-2-7B-GGUF/resolve/main/llama-2-7b.Q4_0.gguf
-
+```
 
 ### **3️⃣ Download LLaMA 2 Model**
 Ensure **Python 3.11+** and **Poetry** are installed.
@@ -52,4 +53,4 @@ Ensure **Python 3.11+** and **Poetry** are installed.
 
 # Start Streamlit UI
 poetry run streamlit run app.py
-
+```
