@@ -1,0 +1,42 @@
+
+---
+
+## **📌 `.gitignore` File**
+Create a `.gitignore` file to prevent committing unnecessary files:
+
+```gitignore
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.env
+
+# LLaMA model files
+models/
+llama.cpp/
+
+# Poetry dependencies
+poetry.lock
+
+# PostgreSQL credentials (if applicable)
+*.db
+*.sqlite
+.env
+
+# Streamlit cache
+.streamlit/
+
+# Logs & debugging files
+logs/
+*.log
+debug.log
+
+
+.venv
+.vscode
+
+llama.cpp
